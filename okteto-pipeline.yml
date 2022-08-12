@@ -1,0 +1,4 @@
+icon: https://dion.vercel.app/img/dion.jpg
+deploy:
+    - okteto deploy --build -f docker-compose.yml
+# vars: [{"name": "BRANCH", "value": "main"}]
